@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<!-- saved from url=(0113)https://www.atrium-sud.fr/connexion/login?service=https:%2F%2F0061642C.index-education.net%2Fpronote%2Feleve.html -->
+<html class=" js no-mobile desktop no-ie chrome chrome94 connexion-section w-1920 gt-240 gt-320 gt-480 gt-640 gt-768 gt-800 gt-1024 gt-1280 gt-1440 gt-1680 no-portrait landscape gradient rgba opacity textshadow multiplebgs boxshadow borderimage borderradius cssreflections csstransforms csstransitions no-touch no-retina fontface domloaded" id="login-page"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Atrium CAS – Central Authentication Service - CAS – Central Authentication Service</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="stylesheet" type="text/css" href="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/all.min.css"><link rel="stylesheet" type="text/css" href="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/cas.css"><link rel="icon" href="https://www.atrium-sud.fr/cas/favicon.ico" type="image/x-icon"><script type="text/javascript" src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/jquery.min.js.téléchargement"></script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></head>
+
+<body class="login" style="background-color: #f5fafd;">
+<script type="text/javascript" src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/zxcvbn.js.téléchargement"></script>
+<script type="text/javascript" src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/jquery-ui.min.js.téléchargement"></script>
+<script type="text/javascript" src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/bootstrap.bundle.min.js.téléchargement"></script>
+
+<script type="text/javascript" src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/head.min.js.téléchargement"></script>
+<script type="text/javascript" src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/cas.js.téléchargement"></script>
+
+<script>
+    head.ready(document, function () {
+        if (!window.jQuery) {
+            var jqueryUrl = "\/cas\/webjars\/jquery\/3.4.1\/jquery.min.js";
+            head.load(jqueryUrl, loadjQueryUI);
+        } else {
+            notifyResourcesAreLoaded(resourceLoadedSuccessfully);
+        }
+    });
+
+    function loadjQueryUI() {
+        var jqueryUrl = "\/cas\/webjars\/jquery-ui\/1.12.1\/jquery-ui.min.js";
+        head.load(jqueryUrl, notifyResourcesAreLoaded(resourceLoadedSuccessfully));
+    }
+
+    function notifyResourcesAreLoaded(callback) {
+        if (typeof callback === "function") {
+            callback();
+        }
+    }
+</script>
+
+<script>
+    /*<![CDATA[*/
+
+    var trackGeoLocation = false;
+
+    var googleAnalyticsTrackingId = null;
+
+    if (googleAnalyticsTrackingId != null && googleAnalyticsTrackingId != '') {
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', googleAnalyticsTrackingId, 'auto');
+        ga('send', 'pageview');
+    }
+
+    /*]]>*/
+</script>
+
+<header>
+		    		<div class="container user-personal-bar py-3 espace-menu espace-menu-deco">
+				    	<div class="entete-bar">
+					        <a class="logo default-logo align-items-center d-md-inline-flex d-sm-none d-none logo-md logo-title" href="https://recette.atrium-paca.fr/" title="Aller à ">
+					            <img class="mr-2 logo-atrium" height="25" src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/atrium_color.png"></a>
+					    </div>				   
+					</div>				
+	    	</header>
+
+<main role="main" class="container mt-3 mb-3 pt-0">
+    <div id="content" class="row">
+        <div class="col-md-8">
+	        <div class="portlet-atrium">
+		        <div>
+		        <h2>
+			        <span style="font-size:20px;">
+			    	<span style="color : rgb(253,127,56);">
+			    	Bienvenue sur ATRIUM, l'Environnement Numérique Educatif des lycées de la Région Provence-Alpes- Côte d'Azur.
+			    	</span>
+			    	</span>
+			    </h2>
+			    </div>
+		    	<p style="margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px;">
+		    	<span style="font-size:12px;">
+		    	<span style="color: rgb(152, 152, 152);">ATRIUM offre aux enseignants, élèves, parents d'élèves, et d'une façon générale à tous les acteurs liés à la communauté éducative, des outils collaboratifs et de communication (actualités, forum, blog, mél, stockage et partage de documents...), des services pédagogiques (ressources pédagogiques via CORRELYCE, plateformes d'apprentissage...), l'accès à des services de vie scolaire (cahier de texte, notes, absences...).</span>
+		    	</span>
+		    	</p>
+		    </div>
+	    	<div id="contentPostIt"></div>
+		    <div id="contentPostIt2"><div class="journal-content-article " data-analytics-asset-id="570054145" data-analytics-asset-title="Demande d&#39;assistance" data-analytics-asset-type="web-content">
+	
+
+	    <link href="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/semantic.min.css" rel="stylesheet">
+    <div class="ui five stackable cards">
+    
+        <div class="card">
+            <div class="ui top  attached label">Tablettes<i class="left floated tablet alternate icon"> </i></div>
+
+            <div class="content">
+                 <div class="header"></div>
+                <div class="description"><p></p><p><a href="https://carma-tab.atm-assur.com/SouscriptionClient?clef=8b631a1b-e721-4e22-a1e5-4d452e23f6a7" target="_blank">Assurer sa tablette</a></p>
+
+<p><a href="https://pcsupport.lenovo.com/fr/fr/servicerequest" target="_blank">Déclarer un sinistre&nbsp;</a></p>
+
+<p><a href="https://s800532721.websitebuilder.online/boutique/" target="_blank">Racheter une tablette</a></p><p></p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="ui top  attached label">Webinaires Manuels et ressources<i class="left floated calendar alternate outline icon"> </i></div>
+
+            <div class="content">
+                 <div class="header"></div>
+                <div class="description"><p></p><p><a href="https://www.atrium-sud.fr/web/manuels-numeriques-411137/calendrier">Consulter le calendrier des prochains Webinaires</a>&nbsp;</p>
+
+<p>30/09 - 01/10 - Startlab</p>
+
+<p>Cliquer sur le détail de l'évèvenement pour vous inscrire.</p><p></p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="ui top  attached label">Aide en ligne Atrium<i class="left floated medkit icon"> </i></div>
+
+            <div class="content">
+                 <div class="header"></div>
+                <div class="description"><p></p><p><a href="https://www.atrium-sud.fr/web/assistance/aide-en-ligne">Consulter l'aide en ligne&nbsp;d'Atrium</a></p>
+
+<p><a href="https://www.atrium-sud.fr/web/assistance/demande-d-assistance">Accéder au formulaire de demande d'assistance</a></p><p></p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="ui top  attached label">Support l'e-C<i class="left floated tablet alternate icon"> </i></div>
+
+            <div class="content">
+                 <div class="header"></div>
+                <div class="description"><p></p><p><a href="https://www.atrium-sud.fr/web/manuels-numeriques-411137/presentation">Accéder aux infos dédiées aux tablettes et manuels numériques&nbsp;</a></p>
+
+<p><a href="https://www.atrium-sud.fr/fr/web/manuels-numeriques-411137/connexion-au-reseau-wifi-lec">Cliquer ici pour consulter les solutions de connexion au réseau WIFI l'eC sur les tablettes numériques</a></p><p></p></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="ui top  attached label">L'actu d'Atrium<i class="left floated info icon"> </i></div>
+
+            <div class="content">
+                 <div class="header"></div>
+                <div class="description"><p></p><p><a href="https://www.atrium-sud.fr/web/assistance/l-actu-d-atrium" target="_blank">Suivez l'actu d'Atrium: état du service, nouvelles versions , etc.&nbsp;</a></p><p></p></div>
+            </div>
+        </div>
+	
+	</div>
+
+</div></div> 
+		    <div id="contentPostIt3"><div class="journal-content-article " data-analytics-asset-id="570039497" data-analytics-asset-title="test" data-analytics-asset-type="web-content">
+	
+
+	
+		
+		
+		<style>
+			.cardAtrium-image{
+				display: flex;
+			}
+			@media (min-width: 768px){
+				.cardAtrium{
+					display: flex;
+					height: 237px;
+					margin: 0 0 0 1px;
+					border-radius: 10px;
+					box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.1);
+					background-color: #fff;
+				}
+			}
+			@media (max-width: 768px){
+				.cardAtrium{
+					display: flex;
+					margin: 0 0 0 1px;
+					border-radius: 10px;
+					box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.1);
+					background-color: #fff;
+				}
+			}
+			.cardAtrium-content{
+				padding:15px !important;
+				display: flow-root;
+				margin-top: auto;
+				margin-bottom: auto;
+			}
+			.cardAtrium-button {
+				display: flex;
+				justify-content: flex-end;
+			}
+			.cardAtrium-row{
+				display: flex;
+				flex-wrap: wrap;
+			}
+			.cardAtrium-description{
+				height:120px;
+				overflow:hidden;
+			}
+			.cardAtrium-margin{
+				margin-bottom:10px;
+			}
+		</style>
+		
+		
+		
+			<div class="cardAtrium-row">
+									<div class="col-md-6 cardAtrium-margin">
+						<div class="no-gutters cardAtrium">
+								<div class="col-md-4 cardAtrium-image">
+									<img src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/Zou.png">
+								</div>
+								<div class="col-md-8 cardAtrium-content">
+								<h3>Pass Zou! Etudes</h3>
+								<div class="cardAtrium-description">
+									<p>Bénéficiez&nbsp;d’un abonnement de transport unique pour circuler à volonté sur les bus et trains du réseau régional ZOU ! Inscrivez-vous dès maintenant !</p>
+
+<p>&nbsp;</p>
+								</div>
+									<div class="cardAtrium-button">
+										<a class="btn btn-secondary" href="https://www.maregionsud.fr/transports/pass-zou-etudes">
+											<i class="icon-plus"></i> En savoir plus 
+										</a>
+									</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6 cardAtrium-margin">
+						<div class="no-gutters cardAtrium">
+								<div class="col-md-4 cardAtrium-image">
+									<img src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/Picto-LEC-4-power.png">
+								</div>
+								<div class="col-md-8 cardAtrium-content">
+								<h3>Une nouvelle application sur vos tablette !</h3>
+								<div class="cardAtrium-description">
+									<p>Cette application vous accompagnera dans les différentes étapes de prise en main&nbsp;du dispositif manuels numériques sur vos tablettes &nbsp;!&nbsp;</p>
+
+<p>&nbsp;</p>
+								</div>
+									<div class="cardAtrium-button">
+										<a class="btn btn-secondary" href="https://www.atrium-sud.fr/web/manuels-numeriques-411137/assistant-de-d%C3%A9marrage-manuels-num%C3%A9riques">
+											<i class="icon-plus"></i> En savoir plus 
+										</a>
+									</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6 cardAtrium-margin">
+						<div class="no-gutters cardAtrium">
+								<div class="col-md-12 cardAtrium-content">
+								<h3>Des Vaccinobus dans les lycées</h3>
+								<div class="cardAtrium-description">
+									<p>Pour accélérer la vaccination auprès des jeunes de 12 à 17 ans, la Région Sud déploie ses vaccinobus dans ses lycées à partir du 13 septembre. Objectif : garantir l’ouverture de 100 % des lycées régionaux.</p>
+								</div>
+									<div class="cardAtrium-button">
+										<a class="btn btn-secondary" href="https://www.maregionsud.fr/actualites/detail/des-vaccinobus-dans-les-lycees-de-la-region-sud">
+											<i class="icon-plus"></i> En savoir plus 
+										</a>
+									</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6 cardAtrium-margin">
+						<div class="no-gutters cardAtrium">
+								<div class="col-md-4 cardAtrium-image">
+									<img src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/outils.png">
+								</div>
+								<div class="col-md-8 cardAtrium-content">
+								<h3>SAV Tablettes Numériques</h3>
+								<div class="cardAtrium-description">
+									<p>Votre tablette présente une panne matériel :&nbsp;Déclarer un incident au Service Après-Vente</p>
+								</div>
+									<div class="cardAtrium-button">
+										<a class="btn btn-secondary" href="https://www.atrium-sud.fr/web/manuels-numeriques-411137/le-sav">
+											<i class="icon-plus"></i> En savoir plus 
+										</a>
+									</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6 cardAtrium-margin">
+						<div class="no-gutters cardAtrium">
+								<div class="col-md-4 cardAtrium-image">
+									<img src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/Casse.png">
+								</div>
+								<div class="col-md-8 cardAtrium-content">
+								<h3>Assurance Tablettes Numériques</h3>
+								<div class="cardAtrium-description">
+									<p>N'attendez pas qu'il soit trop tard pour vous assurer !&nbsp;la Région vous propose de bénéficier d'une offre à un tarif négocié auprès d'un assurreur.&nbsp;</p>
+								</div>
+									<div class="cardAtrium-button">
+										<a class="btn btn-secondary" href="https://www.atrium-sud.fr/web/manuels-numeriques-411137/l-assurance">
+											<i class="icon-plus"></i> En savoir plus 
+										</a>
+									</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6 cardAtrium-margin">
+						<div class="no-gutters cardAtrium">
+								<div class="col-md-4 cardAtrium-image">
+									<img src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/carte_e_PASS_2021_DEF_ombre_ok.png">
+								</div>
+								<div class="col-md-8 cardAtrium-content">
+								<h3>e-Pass Jeunes</h3>
+								<div class="cardAtrium-description">
+									<p>Une carte et une application pour faciliter l'accès des jeunes à la culture et au sport. Profitez de 80€ et des Bons Plans avec l'e-PASS JEUNES en demandant votre carte par Atrium.&nbsp;</p>
+								</div>
+									<div class="cardAtrium-button">
+										<a class="btn btn-secondary" href="https://e-passjeunes.maregionsud.fr/">
+											<i class="icon-plus"></i> En savoir plus 
+										</a>
+									</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6 cardAtrium-margin">
+						<div class="no-gutters cardAtrium">
+								<div class="col-md-4 cardAtrium-image">
+									<img src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/bouton Région orientation (002).png">
+								</div>
+								<div class="col-md-8 cardAtrium-content">
+								<h3>Orientation Formation Métier en Région Sud</h3>
+								<div class="cardAtrium-description">
+									<p>Obtenir toutes les informations sur les voies de formation et les établissements afin de réussir son orientation.</p>
+								</div>
+									<div class="cardAtrium-button">
+										<a class="btn btn-secondary" href="https://www.orientation-regionsud.fr/">
+											<i class="icon-plus"></i> En savoir plus 
+										</a>
+									</div>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6 cardAtrium-margin">
+						<div class="no-gutters cardAtrium">
+								<div class="col-md-4 cardAtrium-image">
+									<img src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/visuel PRJ.png">
+								</div>
+								<div class="col-md-8 cardAtrium-content">
+								<h3>Le Parlement régional de la Jeunesse renouvelle son assemblée !</h3>
+								<div class="cardAtrium-description">
+									<p><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Vous avez envie de vous exprimer, de dialoguer et de réfléchir à des actions concrètes en faveur des jeunes&nbsp;?&nbsp;</span></span><span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">Votre candidature devra être adressée avant le 24/09/2021 <span style="font-size:11pt"><span style="font-family:Calibri,sans-serif">pour participer à l’assemblée du PRJ sur le mandat 2021/2022</span></span>. </span></span></p>
+
+<p>&nbsp;</p>
+								</div>
+									<div class="cardAtrium-button">
+										<a class="btn btn-secondary" href="https://www.maregionsud.fr/aides-et-appels-a-projets/detail/parlement-regional-de-la-jeunesse">
+											<i class="icon-plus"></i> En savoir plus 
+										</a>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+	
+</div></div> 
+	    </div>
+	    
+	   	 <div id="loginForm" class="col-md-4">
+	   	 <!--  <div class="row"> --><!-- Login form template begins here --><div class="card">
+                <!-- <div class="card-header" th:if="${delegatedAuthenticationProviderPrimary == null}"
+                     th:replace="fragments/serviceui :: serviceUI">
+                    <a href="fragments/serviceui.html">service ui fragment</a>
+                </div> --><div class="card-body">
+                    <form method="post" id="fm1" action="https://www.atrium-sud.fr/connexion/login">
+                        <h1>Authentification sécurisée</h1>
+                        <section class="form-group">
+                            </section>
+
+                        <section class="form-group">
+                        	<label for="username" class="control-label col-xs-12">Identifiant ou alias utilisateur</label>
+
+                            <div>
+                                <input class="form-control required" id="username" size="25" tabindex="1" type="text" accesskey="i" autocomplete="off" name="username" value=""></div>
+                        </section>
+
+                        <section class="form-group">
+                        	<label for="password" class="control-label col-xs-12">Mot de passe</label>
+
+                            <div>
+                                <input class="form-control required" type="password" id="password" size="25" tabindex="2" accesskey="m" autocomplete="off" name="password" value=""><span id="capslock-on" style="display:none;">
+                                <p>
+                                    <i class="fa fa-exclamation-circle"></i>
+                                    <span>La touche Verr Maj est activée !</span>
+                                </p>
+                            </span>
+                            </div>
+                        </section>
+
+                        <section class="form-group">
+                            </section>
+
+                        <input type="hidden" name="execution" value="06fb403e-03aa-4c62-b2a0-9e63754e83a4_ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LnRKV1JVNzdEQTBQWTFQaFpNY2ducHdKOG56a09nclpyZDN6NmJGazA0cUtpSHJZWXpxZHBCVEJwalkyYzBPU0NzUmo2UmF5OFpwTW4xaFFoT3o3WE1OX1JkZ0huaHhybVIwNXQ1clJob3B0d01zdEZOZlhwZ0hYSXh0LWhXQk5CdGpya0lsU3diVUJmejhLemx0ZDhLMnhqV3ltQWFTeERDUG8xV2J0U3doVWRSWHRjUEptZ0tWcEt0V0gtbGNpTHNMNktlSW81TEJ4WFFtd0VfY1pZWXJtSlo0Rk9iRDc2TGg4bTNEU0JXYXE1WXRiOS03TmY3QTdXZVp4V21PbXJfUW1wQmlIc09XcWMtX0lFVHlfdHB0dlk3NHBqelZpaTEtUGFmUk9WSmJyOTZsdnlLNlBOcVBwbmhGeDVqZklYSzRHUi1wVUpHYVJjaEc0dU1wQ052ZnlQMUt0T3RCVEZoWXlaRWY4RFgwU2VZZ2ctMUhpRGNXV2c2NGhtUXVGN25hNHdsU25ULXVwYWlkaFJlZjM4UzJtY1FnMzlPaWJlZ3FRTlhyd2FpMjZHTnNLQ242eVdWOVdHNGhOdGU1amVTQ3poVlJWTXA2c2dXQU5qdTBOLWJjbEF3ZVhTY182dGk5d3l3UW4tY3JaTXNtYmRqdkM4U0xYbExXcjBJNWZfdTA0NllXUmc4N2JZVkVqWXBoRmNLVG9OeHNaRUZMZmhWZ19QMk1aX2FCcjBPR3k5N3NPRzhhNGpLNERPbzVTOGxDdnYwb3QwUWtSRlhuV1daeEtvVFAxS2Z5bjZ2WkYzNktrQzFEYnR4RkIxM2Vuc1VIVnlxdWdmMGdaMU1BWXlQSnc3WmhHUEE0Q3ItcjhqdHVIbjd5aTdGNXRhbTBLMFlXMTJIVjd6VWRWTUFLeFlMNGVzUkU4UWs5MlB4SXFjTHB2VW1INFZkWm9UUWNtNWE2b0dMVWY4MDFua1N4UmFXZkduVVpDWU9Vd050OHZwRW50ZjdiVzNGYzJ0eXVvUkVuUEZidXlqY1BNY0xXSTFMTkVmZUs3UndYN2I0T1I3bm1XdktkdmdBYTRFc2hHTXZITHFFam54NjdtclZMZ1FZbVBXVnBMaFhRTTNWSl8yRGpaenh5cjI2Z3FXcU5MRXNqZklpcER1MGQyMlkycXpvMGNRcFBPUThtMENYbk9aU3QtTTBfWG5zOW5GRnV5T2hIeUUyS1hlcjdWZzdfczN6bURlT3ZpWkFUcm92M2otNENxeUsxY285XzBtYWx1a1VlblZfT25hYnEzWnk1VVBuVk5Ja3Rhc1FGSWVGcGt5aDdDbkVBM3QtUVpYZkMwODZWdDZzdjVqR214MldGTlFPQTNhb2VFaGxGVmpWY2RsbWI2cGlMN25XZ21FaTliU05KLUQ3dXRwZlp3SDlYRktXWXc4T1hXQVlhODhiY0NqSi1nV3l0MFlYRVJhWTJnWjh3MFVfR05CNlJzbndoNFpja3U3MXBmRl9aQ1daWmUzRWp5dEJxUE5adE9vRVVCdTYzVTRha3RFU2RhbERVX1hwTG5wejJ3NWdhME1zTWxJNmNOSDgxZGUwbDY4NEE1NjBta0FRN2dIMEFzM2c5dFItNmczVnYxNmpLdTlUUWJqX1VUSUl1TUhTUFA5eFBpeXU0VTdXRTBSUXJVS2lHcVdtc1ExUUhLSWxQNWFweThoWkp6Y2NDdlVjWS04UGU0TjZpU0U2UHVQbnFyNUxtS0NtbnZyX05HalNPX3lZZUhaZGprRTh3Z25YRGFCWXFkNFNoZXRQbjhROGtub1ZHNmNNRXVQWEdQckg0YV9uLWJ1Q2o4ZFlJaGwyU1dGN0Y4TGZyLWJiNU5tM3BnZUdFX1MzTmh6ZlhyM3gweGp5MjRzSEV5eFRQTEtndDNrbE1UU1NBYXkxWFpFaFVETUxvSDRGbXItUnVjMkd4b2NiY2ZtU1BMa24xN0cySnlBT2x1Wms1eHoxQzh3QlNaR2ZqSm14Z1ZvRVRrZExlcXlFc1lveExBR1B4d05YYUhxdDJfUWxkR2pZeU9ycmFhNXZEYzgyZTRrU01ETVJRcV9VYnY5LXdqRkZTYzdtQW43QnFadFhhVkQ4UDItUWpRa2d5bWhEZ1JpazFoaDI0Y1BXVG9zRWlpQnhfVDRmajZjOWtReFNPekFmdVQzaHNQb2MtUDdlZWZLN1MzSDN4QnZ3YV9lZkVhb0xLb3VkZDZiUDViWE9NREZCRDkzU0JHTFJtR0VaanVBTC1WMF9ITjc4MkUyTUJvaG9fWnhiQVBiSDlEUXpuZXdFNWlvZFNUNUZjX1hpSGc2SlkySVdNTGtWbkJaOER0Qm9CbVJkSEUydFh1Uy16ZndiYVE2T043Y0ZpbDIxNC0xbVlhYXlTTjlESDUwQkxqWC1yR0JIVXk3NnlxSHVjNFdwQUZTaVJEQl9OSXRsNjZ5QXdrWURHeEZNMW1uZHp3SXlndmtsU2tRbzlHNllVMThfS3ZWc0huWDBjSnRYVTM0dXRVNl9fcGVxMkcyeHJiRWUzM05FNXd3TERJNE9lYnpNYk5TYXplRDdBV1c5R1hfRzZZQ2pvT214bWhCbU43dFhvTUdhT2Q2U09mb3d2eG1MTmxIOFdUai04eEhpcnctZ21vUGZhTHVrcHE4Z2YwbkJMQnRlUjF4SWhLaWhlQXhsbjRZQjNicDU4SHJKVHNqX0I1eUxlZEo3UTBERnZ1TGRYQVpYQ29wREdwNFJQV24xRnlfUE5oVnZRc25lQ0p2anB6eUFVMGFPTW9aSTdmUVc3U2pBQUV3dzRPMDhuR2wtdTFQME90ekFLemQtek0xMUFES0N6RnVqdDVlWFdtSU51c09FUm5WR2JqcHc3YUctM0EwNDhUQ194SWRjUEFiM1c5ZVhodURNb2lnNU1VQlJ5S0hTbFA3aVlFQmw3U2x4MnFwbEdGa09mUE5oQklCckxMYjJvT2h5aVRmZ0RSWlRIVy0yZkJxbEZJd2hwWm5FRzdMenhUb1NxZWtVWHltcE83NnI5eElKYjNMTl85LVROd2d4cEhVYTBLUXVuVmZ1MXlHbloxMWtpOENVS2JBNHdVOFN0Mi02d1JvTUpuMXBqRmdBU3V4MU03RmJld3QxNk90ZzBxQ2pKTXc0NjlWbUYtaFdrRXpnREdTRUdqOU5OS3lJMG9HVmlDXzQ4SEJjdF9GcHN0WTVuYmJ5cktxU2lLWXdCRE9ITWEtVUJRNjFvc09HZDVoa1BQM043OTE0VWNRUEk5ZjZRX01oazlicDY5c3Nvak91TkhiR1dmcmVFWkpRcFhQMTlIRFRYMGNFRTYxTm9Ea0t5SmJubGxqYnp2c2lLSEI0Y2N1cVpiS1BnZlNhV2F4STJkM0VHcG14SDZXOGFMRE01U3FwTy1sUWVPVmlRNlZOc2NsWUZNVlpWU1B6dVVxMDVVYzVOTTdZb01sM0NrcE5kdmRUZ2tjcjBLNC1DRWFPcVRrbXdHZGZqUDdtSG1hcloyUTA2cHIzR2xBZGZVQlltVmRWWms4eEpuM1p2d1B4aDY2WE9Ma1R3RUlpaFNNRVlYeHlwU1BOeG9MYUEtcDB0blVqcXBITUpxalJwUGpiYkpmSmVVSFpfV29LcER1VFUyLVNySVBlSV8tM2ZYQnV5dGpiaTBEZ1M3YUdFM1dRQ0t0cHhWNHd2WF9UcVFhcTR5ajgwSEVQWG1kSXJaOWxGcG90N1RuRzdmV2FTa0dvY1BVNG4wd0gxZzlnNmdvLWZ1LWgzanZ1anpqS1BEVDZWemlVT3h3UWg3dDdVRkpHT2tYd0lRWTBVeFJmRnVIS3VYOG9rWUljQUhOZkNMZThKSm5iejViYkZGNjExb0psVkt2MlFXdkJjWlN1WEpHUWQzNFQwOGF0eWFZR3pTdkhjeDI3ZnhrckE1QWRFQVp1QlRMRDBCQzVYUEVCQ2JjSWZIZXNRQlNUU0dMT2ZPRXd1Tk1IWUctQkV5WXdPTGh0ZzU1WDFWTUtmbHFFbGUwZVFoWTdjbTNORXBDNi1ELUd0Qnktc3FVUnBQd0dBMTNXNWZ5XzJCZzhNSHhGLThZeXBhTTA0MldXdlJ1OWF5T25Da3B5enVaY3V1YTg1T1lPUUlSZGhjR1BsekEwc0pkMTFtUVBXYmhWM2k2aFhjdUdZcUNjU3Jyam4wSkM4eFMxMWhtcmJlN3E2VERDVVQwZVVXSFI4RnhDdmdDUlFCakk5SmhSeHlfRFZLSXM4QWJ0TEx0R2w5VHZTRWxnVlhzNWRWTENsblVRS3hlWVBJeGx0eFF5enBGZTh3bl85T2MyN3JQS3BXVWladm1Zak5jS0RsVU9IM1o4SkotUzJrZ1h5ckRNd3VnSkRaeFdTX3FybmNPQThyRXhLaUc1bmdkZmhtaE90dThGZ0J3c2loNm5ZbTdHQnJkUUNsZHh3ZVhoVExIaWt6U3lYaWVxYUY5eW01V1d6ZzFhaklMMTY1bTdwUUJ1d1lMWlNlcWNFc09LTnNQRFJFZGxPTTJlWXRiSUQtQUtXNlFUd2JxdlJYT1ZxOUdteDBZbXpTT19Eay5CX1NZYlVQQlFoRzlXa2Q3QXBGSUl5S3BRS2JsS2llVGhUb0haT1lRejhxOWlvWnZORTliaUVHUzRudUtDbloxWjFpZXd3NnRfRkJGdTE0a0d4ZU5oZw=="><input type="hidden" name="_eventId" value="submit"><input type="hidden" name="geolocation"><div class="button-holder">
+	                            <button class="btn btn btn-primary btn-primary" id="submitBtn" value="SE CONNECTER" name="submitBtn" type="submit" accesskey="l" tabindex="3">
+									<span class="lfr-btn-label">Se connecter</span>
+								</button>
+	                            <button class="btn btn btn-secondary" accesskey="c" tabindex="6" type="reset">Effacer</button>
+                            </div> 
+
+                        </form>
+                    <ul style="list-style :none; margin:0">
+	                    <li style="display: inline-block;margin-right: 21px">
+		                    <a href="https://www.atrium-sud.fr/web/guest/bienvenue?p_p_id=net_atos_atrium_connexion_ConnexionPortlet&amp;p_p_lifecycle=0&amp;p_p_state=maximized&amp;p_p_mode=view&amp;saveLastPath=false&amp;_net_atos_atrium_connexion_ConnexionPortlet_mvcPath=%2Fforgot_password.jsp">
+		                    	<span>Mot de passe oublié?</span>
+		                    </a>
+		                </li>
+		                <li style="display: inline-block">
+		                    <a href="https://www.atrium-sud.fr/web/guest/bienvenue?p_p_id=net_atos_atrium_connexion_ConnexionPortlet&amp;p_p_lifecycle=0&amp;p_p_state=maximized&amp;p_p_mode=view&amp;saveLastPath=false&amp;_net_atos_atrium_connexion_ConnexionPortlet_mvcPath=%2Fforgot_identifiant.jsp">
+		                    	<span>Identifiant oublié?</span>
+		                    </a>
+		                </li>
+		            </ul>
+					<hr><p>
+					Pour des raisons de sécurité, veuillez vous déconnecter et fermer votre navigateur lorsque vous avez fini d'accéder aux services authentifiés.
+					</p>
+
+                    <script type="text/javascript">
+       
+                        /*<![CDATA[*/
+                        var i = "Veuillez patienter..."
+                        var j = "SE CONNECTER"
+                            /*]]>*/
+                            $(window).on('pageshow', function(){
+                                $(':submit').prop('disabled', false);
+                                $(':submit').attr('value', j);
+                            });
+                            $(document).ready(function () {
+                                $("#fm1").submit(function () {
+                                    $(":submit").attr("disabled", true);
+                                    $(":submit").attr("value", i);
+                                    return true;
+                                });
+                            });
+                            
+                            const element = document.querySelector('body > main');
+                            element.classList.add("pt-0");
+                            
+                    </script>
+        </div>
+
+            </div>
+            <div id="providers" style="display: none;">
+                <script>
+            var redirectTo = $( "a[autoRedirect=true]" ).attr("href");
+            if (redirectTo != null && redirectTo != undefined) {
+                window.location.href = redirectTo;
+            }
+        </script>
+    </div>
+
+            <script>
+                if ($('#list-providers').length) {
+                    $('#providers').addClass("col");
+                    $('#loginForm').addClass("col");
+                    $('#providers').show();
+                }
+            </script>
+            <script> 
+			$('#contentPostIt').load('https://www.atrium-sud.fr #portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_IWOMHBSAAIBf .journal-content-article');
+			</script>
+			<script> 
+			$('#contentPostIt2').load('https://www.atrium-sud.fr #portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_6Yzjsa5SZPUF .journal-content-article');
+			</script>
+			<script> 
+			$('#contentPostIt3').load('https://www.atrium-sud.fr #portlet_com_liferay_journal_content_web_portlet_JournalContentPortlet_INSTANCE_YAc3nrklHqeX .journal-content-article');
+			</script>
+			
+
+        </div>
+      
+    
+</div></main>
+
+<footer id="footer-atrium" role="contentinfo">
+		<div class="paca-and-line">
+			<a class="link-imgpaca" href="http://www.maregionsud.fr/">
+				<img class="img-paca" alt="region-sud-logo" height="30" src="./Atrium CAS – Central Authentication Service - CAS – Central Authentication Service_files/regionSud.png"></a>
+			<hr class="line_paca"></div>
+		
+		<div>
+			<div class="footer-gauche">
+				<span class="span-gauche"> © ATRIUM V2.2.4 - tous droits réservés </span>
+			</div>
+			
+			<div class="footer-droit">
+				<span>
+		    		<a class="a-droit" href="https://www.atrium-sud.fr/credits">Crédits</a> | 
+		    		<a class="a-droit" href="https://www.atrium-sud.fr/notice-legale">Notice légale</a> | 
+		    		<a class="a-droit" href="https://www.atrium-sud.fr/conditions">Conditions d'utilisations</a> |
+		    		<a class="a-droit" href="https://www.atrium-sud.fr/protection-des-donnees">Protection des données</a> | 
+		    		<a class="a-droit" href="https://www.atrium-sud.fr/politique-cookies">Politique des cookies</a> | 		    		
+		    		<a class="a-droit" href="https://www.atrium-sud.fr/moderation">Modération</a>
+				</span>
+			</div>
+		</div>
+	</footer>
+
+
+</body></html>

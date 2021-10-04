@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="22" viewBox="0 0 30 22">
+    <g fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g stroke="#FFF" stroke-width="1.538">
+            <rect width="30" height="22" rx="2.692"/>
+            <g transform="translate(5 4)">
+                <rect width="6" height="5" y="9" rx=".769"/>
+                <rect width="10" height="5" x="10" y="9" rx=".769"/>
+                <rect width="20" height="5" rx=".769"/>
+            </g>
+        </g>
+    </g>
+</svg>

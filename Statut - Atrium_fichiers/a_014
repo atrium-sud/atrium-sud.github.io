@@ -1,0 +1,2 @@
+Liferay.Loader.define("frontend-js-metal-web@4.0.8/bridge/metal-dom/src/all/dom",["module","frontend-js-metal-web$metal-dom/lib/all/dom"],function(module,src){module.exports=src});
+Liferay.Loader.define("frontend-js-web@4.0.38/bridge/frontend-js-web/liferay/toast/commands/OpenToast.es",["module","frontend-js-web/liferay/toast/commands/OpenToast.es"],function(module,src){module.exports=src});
